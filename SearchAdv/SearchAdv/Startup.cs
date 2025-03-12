@@ -52,8 +52,17 @@ namespace SearchAdv
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(name: "default",
-                    pattern: "{controller=LocationAPI}/{action=GetLocations}/{id?}");
+                endpoints.MapControllerRoute(name: "ru",
+                                             pattern: "",
+                                             defaults: new { controller = "LocationAPI", 
+                                                             action = "GetLocations" });
+                endpoints.MapControllerRoute(name: "PageNotFound",
+                                             pattern: "{*url}",
+                                             new
+                                             {
+                                                 controller = "Error",
+                                                 action = "PageNotFound"
+                                             });
             });
         }
     }
