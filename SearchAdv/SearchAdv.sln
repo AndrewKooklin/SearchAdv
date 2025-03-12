@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35826.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAdv", "SearchAdv\SearchAdv.csproj", "{E81EEAFC-C5EE-4609-9C65-1A0F3767A1EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E81EEAFC-C5EE-4609-9C65-1A0F3767A1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81EEAFC-C5EE-4609-9C65-1A0F3767A1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81EEAFC-C5EE-4609-9C65-1A0F3767A1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81EEAFC-C5EE-4609-9C65-1A0F3767A1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8147B0F7-10D1-4588-98E2-98E0EE4F147A}
+	EndGlobalSection
+EndGlobal
